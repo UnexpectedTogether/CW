@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\CourseWork\CourseWork\CourseWork\bin\x86\Debug\Content\earth.xnb</Output>
+      <Output>F:\CW\CourseWork\CourseWork\bin\x86\Debug\Content\earth.xnb</Output>
       <Time>2015-04-22T01:07:44.3549607+03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -17,10 +17,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>F:\CourseWork\CourseWork\CourseWorkContent\</RootDirectory>
-      <LoggerRootDirectory>F:\CourseWork\CourseWork\CourseWork\</LoggerRootDirectory>
-      <IntermediateDirectory>F:\CourseWork\CourseWork\CourseWork\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>F:\CourseWork\CourseWork\CourseWork\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>F:\CW\CourseWork\CourseWorkContent\</RootDirectory>
+      <LoggerRootDirectory>F:\CW\CourseWork\CourseWork\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\CW\CourseWork\CourseWork\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\CW\CourseWork\CourseWork\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

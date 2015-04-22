@@ -1,1 +1,2 @@
 F:\CourseWork\CourseWork\CourseWorkContent\obj\x86\Debug\CourseWorkContent.contentprojResolveAssemblyReference.cache
+F:\CW\CourseWork\CourseWorkContent\obj\x86\Debug\CourseWorkContent.contentprojResolveAssemblyReference.cache

@@ -7,3 +7,12 @@ F:\CourseWork\CourseWork\CourseWork\obj\x86\Debug\CourseWork.pdb
 F:\CourseWork\CourseWork\CourseWork\bin\x86\Debug\Content\earth.xnb
 F:\CourseWork\CourseWork\CourseWork\bin\x86\Debug\Library.dll
 F:\CourseWork\CourseWork\CourseWork\bin\x86\Debug\Library.pdb
+F:\CW\CourseWork\CourseWork\bin\x86\Debug\Content\earth.xnb
+F:\CW\CourseWork\CourseWork\bin\x86\Debug\CourseWork.exe
+F:\CW\CourseWork\CourseWork\bin\x86\Debug\CourseWork.pdb
+F:\CW\CourseWork\CourseWork\bin\x86\Debug\Library.dll
+F:\CW\CourseWork\CourseWork\bin\x86\Debug\Library.pdb
+F:\CW\CourseWork\CourseWork\obj\x86\Debug\CourseWork.csprojResolveAssemblyReference.cache
+F:\CW\CourseWork\CourseWork\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\CW\CourseWork\CourseWork\obj\x86\Debug\CourseWork.exe
+F:\CW\CourseWork\CourseWork\obj\x86\Debug\CourseWork.pdb

@@ -4,3 +4,9 @@ F:\CourseWork\Library\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 F:\CourseWork\Library\obj\x86\Debug\Library.dll
 F:\CourseWork\Library\obj\x86\Debug\Library.pdb
 F:\CourseWork\Library\obj\x86\Debug\Library.csprojResolveAssemblyReference.cache
+F:\CW\Library\bin\x86\Debug\Library.dll
+F:\CW\Library\bin\x86\Debug\Library.pdb
+F:\CW\Library\obj\x86\Debug\Library.csprojResolveAssemblyReference.cache
+F:\CW\Library\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\CW\Library\obj\x86\Debug\Library.dll
+F:\CW\Library\obj\x86\Debug\Library.pdb

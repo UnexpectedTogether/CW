@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Abstractions\GameObject.cs" />
     <Compile Include="Abstractions\StaticGameObject.cs" />
+    <Compile Include="Alesha.cs" />
     <Compile Include="Animation\Animation.cs" />
     <Compile Include="Infrastructure\GraphicContext.cs" />
     <Compile Include="Infrastructure\Vulnerability.cs" />
