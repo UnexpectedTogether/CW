@@ -1,0 +1,9 @@
+F:\CourseWork\CourseWork\CourseWork\obj\x86\Debug\CourseWork.csprojResolveAssemblyReference.cache
+F:\CourseWork\CourseWork\CourseWork\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\CourseWork\CourseWork\CourseWork\bin\x86\Debug\CourseWork.exe
+F:\CourseWork\CourseWork\CourseWork\bin\x86\Debug\CourseWork.pdb
+F:\CourseWork\CourseWork\CourseWork\obj\x86\Debug\CourseWork.exe
+F:\CourseWork\CourseWork\CourseWork\obj\x86\Debug\CourseWork.pdb
+F:\CourseWork\CourseWork\CourseWork\bin\x86\Debug\Content\earth.xnb
+F:\CourseWork\CourseWork\CourseWork\bin\x86\Debug\Library.dll
+F:\CourseWork\CourseWork\CourseWork\bin\x86\Debug\Library.pdb
