@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Library.AleshaBitch
+namespace Library.Infrastructure
 {
-    public class Alesha
+    public enum BlockType
     {
-        //suck SourceTree!
+        Ground,
+        Sky,
     }
 }

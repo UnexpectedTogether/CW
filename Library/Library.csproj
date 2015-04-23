@@ -61,8 +61,10 @@
   <ItemGroup>
     <Compile Include="Abstractions\GameObject.cs" />
     <Compile Include="Abstractions\StaticGameObject.cs" />
-    <Compile Include="AleshaBitch\Alesha.cs" />
+    <Compile Include="Abstractions\StaticWorldObject.cs" />
     <Compile Include="Animation\Animation.cs" />
+    <Compile Include="FpsCounter\FpsCounter.cs" />
+    <Compile Include="Infrastructure\BlockType.cs" />
     <Compile Include="Infrastructure\GraphicContext.cs" />
     <Compile Include="Infrastructure\Vulnerability.cs" />
     <Compile Include="Infrastructure\ObjectState.cs" />

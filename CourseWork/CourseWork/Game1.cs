@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Library.Abstractions;
+using Library.FpsCounter;
 using Library.Infrastructure;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
@@ -25,6 +26,11 @@ namespace CourseWork
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            Components.Add(new FpsCounter(this));
+            graphics.SynchronizeWithVerticalRetrace = false;
+            IsFixedTimeStep = false;
+
+
         }
 
         /// <summary>
@@ -48,11 +54,11 @@ namespace CourseWork
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            
-            staticGameObject = new StaticGameObject(
+            staticGameObject = new StaticWorldObject(
                 new GraphicContext(Content.Load<Texture2D>("earth")),
                 new Vector2(100,100),
-                new ObjectState(Vulnerability.Invulnerable,new TimeSpan(0,0,10)));
+                new ObjectState(Vulnerability.Invulnerable,new TimeSpan(0,0,10),10,10),
+                BlockType.Sky);
             // TODO: use this.Content to load your game content here
         }
 
@@ -93,7 +99,7 @@ namespace CourseWork
             staticGameObject.Draw(spriteBatch);
             spriteBatch.End();
             // TODO: Add your drawing code here
-
+          
             base.Draw(gameTime);
         }
     }

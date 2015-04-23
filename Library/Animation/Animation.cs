@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Library.Animation
 {
-    public class Animation 
+    public class Animation
     {
         private Texture2D _texture;
         private int _frameWidth;
@@ -34,9 +34,9 @@ namespace Library.Animation
             _texture = texture;
             _heightInFrames = heightInFrames;
             _widthInFrames = widthInFrames;
-            _frameWidth = texture.Width/widthInFrames;
-            _frameHeight = texture.Height/heightInFrames;
-            _framesCount = _framesCount <= 0 ? widthInFrames*heightInFrames : framesCount;
+            _frameWidth = texture.Width / widthInFrames;
+            _frameHeight = texture.Height / heightInFrames;
+            _framesCount = _framesCount <= 0 ? widthInFrames * heightInFrames : framesCount;
             _animationPeriod = animationPeriod;
             _tintColor = tintColor;
         }
@@ -57,14 +57,12 @@ namespace Library.Animation
 
         public void Draw(SpriteBatch spriteBatch, Vector2 position)
         {
-            int currentFrameVerticalPos = _currentFrame/_widthInFrames;
-            int currentFrameHorizontalPos = _currentFrame%_widthInFrames;
-            int topPos = currentFrameVerticalPos*_frameHeight;
-            int leftPos = currentFrameHorizontalPos*_frameWidth;
-            Rectangle currentFrameRect = new Rectangle(leftPos, topPos,_frameWidth,_frameHeight);
+            int currentFrameVerticalPos = _currentFrame / _widthInFrames;
+            int currentFrameHorizontalPos = _currentFrame % _widthInFrames;
+            int topPos = currentFrameVerticalPos * _frameHeight;
+            int leftPos = currentFrameHorizontalPos * _frameWidth;
+            Rectangle currentFrameRect = new Rectangle(leftPos, topPos, _frameWidth, _frameHeight);
             spriteBatch.Draw(_texture, position, currentFrameRect, _tintColor);
         }
-
-
     }
 }
